@@ -1,4 +1,4 @@
-.padre-flex {
+.padre-flex{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,4 +20,8 @@ footer{
     height: 1fr;
     border: 1cm;
     bottom: 0%;
+}
+.gap{
+    gap: 5cm;
+    margin-top: 1cm;
 }

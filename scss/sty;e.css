@@ -25,12 +25,22 @@ footer {
   bottom: 0%;
 }
 
-.molding {
-  margin-top: 2cm;
+.gap {
+  gap: 5cm;
+  margin-top: 1cm;
 }
 
 .navegador {
   height: 3cm;
+  background-color: cyan;
+}
+
+.molding {
+  margin-top: 2cm;
+}
+
+.border {
+  padding: 1cm;
 }
 
 .formulario {
@@ -54,6 +64,45 @@ footer {
 
 .fototamanio {
   height: 15cm;
+  width: 8cm;
   padding: 0%;
   align-content: center;
-}/*# sourceMappingURL=sty;e.css.map */
+}
+
+.medidas {
+  width: 30cm;
+  margin-left: 4cm;
+}
+
+body {
+  font-family: "Lora", sans-serif;
+  font-weight: 500;
+}
+.cuadro{
+  background-color: none;
+  width: 7cm;
+  margin-left: 30cm;
+  margin-top: 2cm;
+}
+.fondo{
+  background-image: url(../assets/img/collage.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=sty;e.css.map */
