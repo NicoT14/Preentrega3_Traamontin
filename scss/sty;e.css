@@ -78,31 +78,16 @@ body {
   font-family: "Lora", sans-serif;
   font-weight: 500;
 }
-.cuadro{
+
+.cuadro {
   background-color: none;
   width: 7cm;
   margin-left: 30cm;
   margin-top: 2cm;
 }
-.fondo{
+
+.fondo {
   background-image: url(../assets/img/collage.jpeg);
   background-size: auto;
   background-repeat: no-repeat;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*# sourceMappingURL=sty;e.css.map */
+}/*# sourceMappingURL=sty;e.css.map */

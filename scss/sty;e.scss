@@ -5,3 +5,16 @@
 @import "components/formulario";
 @import "components/foto";
 @import "components/textos";
+
+.cuadro{
+    background-color: none;
+    width: 7cm;
+    margin-left: 30cm;
+    margin-top: 2cm;
+  }
+  .fondo{
+    background-image: url(../assets/img/collage.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  
