@@ -1,0 +1,12 @@
+.formulario{
+    background-color: rgb(229, 225, 225);
+    width: 10cm;
+    height: 8cm;
+}
+.link{
+    color: $secundario;
+
+    &:hover{
+        background-color: $primario;
+    }
+}
