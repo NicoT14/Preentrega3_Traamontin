@@ -1,3 +1,18 @@
+footer {
+  text-align: center;
+  width: 100%;
+  height: 1fr;
+  border: 1cm;
+  margin-top: 1cm;
+  bottom: 0%;
+  background-color: rgb(243, 235, 235);
+}
+
+body {
+  font-family: "Lora", sans-serif;
+  font-weight: 500;
+}
+
 .padre-flex {
   display: flex;
   flex-direction: row;
@@ -11,30 +26,6 @@
   justify-content: center;
 }
 
-body {
-  height: 400px;
-}
-
-footer {
-  position: fixed;
-  text-align: center;
-  margin-bottom: 0cm;
-  width: 100%;
-  height: 1fr;
-  border: 1cm;
-  bottom: 0%;
-}
-
-.gap {
-  gap: 5cm;
-  margin-top: 1cm;
-}
-
-.navegador {
-  height: 3cm;
-  background-color: cyan;
-}
-
 .molding {
   margin-top: 2cm;
 }
@@ -43,8 +34,15 @@ footer {
   padding: 1cm;
 }
 
+.cuadro {
+  background-color: none;
+  width: 7cm;
+  margin-left: 30cm;
+  margin-top: 2cm;
+}
+
+/*aca poner las media querys tratar de fijarse en el proyecto*/
 .formulario {
-  background-color: rgb(229, 225, 225);
   width: 10cm;
   height: 8cm;
 }
@@ -54,6 +52,19 @@ footer {
 }
 .link:hover {
   background-color: cyan;
+}
+
+.rectangulo {
+  background-color: rgb(243, 235, 235);
+  border-style: double;
+}
+
+.bord {
+  padding: 1cm;
+}
+
+.const {
+  text-decoration: underline;
 }
 
 .foto {
@@ -74,20 +85,18 @@ footer {
   margin-left: 4cm;
 }
 
-body {
-  font-family: "Lora", sans-serif;
-  font-weight: 500;
-}
-
-.cuadro {
-  background-color: none;
-  width: 7cm;
-  margin-left: 30cm;
-  margin-top: 2cm;
-}
-
 .fondo {
   background-image: url(../assets/img/collage.jpeg);
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.navegador {
+  height: 3cm;
+  background-color: cyan;
+}
+
+.gap {
+  gap: 5cm;
+  margin-top: 1cm;
 }/*# sourceMappingURL=sty;e.css.map */

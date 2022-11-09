@@ -1,5 +1,4 @@
 .formulario{
-    background-color: rgb(229, 225, 225);
     width: 10cm;
     height: 8cm;
 }
@@ -9,4 +8,14 @@
     &:hover{
         background-color: $primario;
     }
+}
+.rectangulo{
+    background-color: $terciario;
+    border-style: double;
+}
+.bord{
+    padding: 1cm;
+}
+.const{
+    text-decoration: underline;
 }

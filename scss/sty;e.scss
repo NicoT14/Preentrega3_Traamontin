@@ -1,20 +1,11 @@
-@import "utilities/color";
-@import "layout/flex";
-@import "components/navegador";
-@import "layout/molding";
-@import "components/formulario";
-@import "components/foto";
-@import "components/textos";
-
-.cuadro{
-    background-color: none;
-    width: 7cm;
-    margin-left: 30cm;
-    margin-top: 2cm;
-  }
-  .fondo{
-    background-image: url(../assets/img/collage.jpeg);
-    background-size: auto;
-    background-repeat: no-repeat;
-  }
-  
+@import "./utilities/color";
+@import "./normalize/reset";
+@import "./normalize/textos";
+@import "./layout/flex";
+@import "./layout/molding";
+/*aca poner las media querys tratar de fijarse en el proyecto*/
+@import "./components/formulario";
+@import "./components/foto";
+@import "./components/navegador";
+@import "./components/card";
+@import "./components/carrousel";
