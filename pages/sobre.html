@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="pagina destinada a la exhibicion de obras de arte y murales de Roxana Tejada. Tambien ofrecimiento de taller de arte para chicos y adulto">
+    <meta name="keywords" content="Arte cuadros obras murales dibujo taller Roxana Tejada">
+    <title>Rox Tejada | Sobre</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lora:100,300,400,500,700&display=swap" rel="stylesheet">
 
@@ -18,33 +21,39 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light flex navegador">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navegador">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/logo.jpeg" height="40px" class="d-inline-block allign-top redondo"
+                        alt="logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./sobre.html">Sobre</a>
+                            <a class="nav-link link-nav" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-nav" aria-current="page" href="./sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle link-nav" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Portfolio
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="./obras.html">Obras</a></li>
-                                <li><a class="dropdown-item" href="./murales.html">Murales</a></li>
+                                <li><a class="dropdown-item link-nav" href="./obras.html">Obras</a></li>
+                                <li><a class="dropdown-item link-nav" href="./murales.html">Murales</a></li>
                             </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="./taller.html">Taller</a>
+                            <a class="nav-link link-nav" href="./taller.html">Taller</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link link-nav" href="./contacto.html">Contacto</a>
                         </li>
                         </li>
                     </ul>
@@ -54,30 +63,34 @@
     </header>
     <main>
         <div class="row">
+            <div class="col container-fluid">
+                <img src="../assets/img/collage.jpeg" class="img-fluid acomodar" alt="collage 4 fotos">
+            </div>
             <div class="col">
-        <img src="../assets/img/collage.jpeg" class="img-fluid" alt="">
-            </div>    
-        <div class="col">
-            <p class="cuadro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aut veritatis quibusdam harum illum earum
-                illo ex quis expedita cumque ducimus animi fugit, autem numquam voluptate. Dolorum soluta temporibus qui
-                aperiam reiciendis assumenda. Temporibus illo, accusantium ipsum necessitatibus, non optio voluptates
-                laboriosam nulla provident facilis obcaecati earum assumenda error fugiat.</p>
-        </div>
+                <p class="cuadro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aut veritatis quibusdam
+                    harum illum earum
+                    illo ex quis expedita cumque ducimus animi fugit, autem numquam voluptate. Dolorum soluta temporibus
+                    qui
+                    aperiam reiciendis assumenda. Temporibus illo, accusantium ipsum necessitatibus, non optio
+                    voluptates
+                    laboriosam nulla provident facilis obcaecati earum assumenda error fugiat.</p>
+            </div>
         </div>
     </main>
     <footer class="navbar-fixed-bottom">
         <div>
-          <a class="navbar-brand" href="https://www.instagram.com/roxtejada.art/" target="_blank">
-            <img src="../assets/img/instagram.png" alt="Instagram" width="25" height="25">
-          </a>
-          <a class="navbar-brand" href="https://www.facebook.com/Taller-de-Rox-Espacio-de-Arte-1229169133811909/" target="_blank">
-            <img src="../assets/img/facebook.png" alt="facebook" width="34" height="34">
-          </a>
-          <a class="navbar-brand" href="https://web.whatsapp.com/" target="_blank">
-            <img src="../assets/img/whatsapp.png" alt="whatsapp" width="34" height="34">
-          </a>
+            <a class="navbar-brand" href="https://www.instagram.com/roxtejada.art/" target="_blank">
+                <img src="../assets/img/instagram.png" alt="Instagram" width="25" height="25">
+            </a>
+            <a class="navbar-brand" href="https://www.facebook.com/Taller-de-Rox-Espacio-de-Arte-1229169133811909/"
+                target="_blank">
+                <img src="../assets/img/facebook.png" alt="facebook" width="34" height="34">
+            </a>
+            <a class="navbar-brand" href="https://web.whatsapp.com/" target="_blank">
+                <img src="../assets/img/whatsapp.png" alt="whatsapp" width="34" height="34">
+            </a>
         </div>
-      </footer>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

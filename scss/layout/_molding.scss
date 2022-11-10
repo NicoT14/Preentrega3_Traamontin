@@ -9,3 +9,21 @@
     margin-left: 3cm;
     margin-top: 2cm;
   }
+  .derecha{
+    text-align: right;
+    align-items: right;
+  }
+  .redondo{
+    border-radius: 10px;
+    transform: rotate(-5deg);
+  }
+.foto-taller{
+    height: 9cm;
+    width: 7cm;
+}
+.foto-izq{
+    margin-left: map-get($estilos, margin);
+}
+.foto-der{
+    margin-right: map-get($estilos, margin);
+}

@@ -1,4 +1,10 @@
 .navegador {
     height: 3cm;
-    background-color: $primario;
   }
+.link-nav{
+  color: none;
+
+  &:hover{
+    font-weight: bold
+  }
+}

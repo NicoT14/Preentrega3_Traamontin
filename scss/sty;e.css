@@ -40,14 +40,36 @@ body {
   margin-top: 2cm;
 }
 
-/*aca poner las media querys tratar de fijarse en el proyecto*/
+.derecha {
+  text-align: right;
+  align-items: right;
+}
+
+.redondo {
+  border-radius: 10px;
+  transform: rotate(-5deg);
+}
+
+.foto-taller {
+  height: 9cm;
+  width: 7cm;
+}
+
+.foto-izq {
+  margin-left: 1cm;
+}
+
+.foto-der {
+  margin-right: 1cm;
+}
+
 .formulario {
   width: 10cm;
   height: 8cm;
 }
 
 .link {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .link:hover {
   background-color: cyan;
@@ -92,7 +114,13 @@ body {
 
 .navegador {
   height: 3cm;
-  background-color: cyan;
+}
+
+.link-nav {
+  color: none;
+}
+.link-nav:hover {
+  font-weight: bold;
 }
 
 .gap {

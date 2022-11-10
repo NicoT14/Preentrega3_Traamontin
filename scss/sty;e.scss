@@ -2,8 +2,9 @@
 @import "./normalize/reset";
 @import "./normalize/textos";
 @import "./layout/flex";
+@import "./normalize/estilos";
 @import "./layout/molding";
-/*aca poner las media querys tratar de fijarse en el proyecto*/
+@import "./normalize/medias";
 @import "./components/formulario";
 @import "./components/foto";
 @import "./components/navegador";
