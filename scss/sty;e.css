@@ -126,4 +126,8 @@ body {
 .gap {
   gap: 5cm;
   margin-top: 1cm;
+}
+
+.transicion {
+  transition: 2s;
 }/*# sourceMappingURL=sty;e.css.map */
