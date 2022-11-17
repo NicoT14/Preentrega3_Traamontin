@@ -63,6 +63,11 @@ body {
   margin-right: 1cm;
 }
 
+@media (max-width: 990px) {
+  .navegador {
+    height: auto;
+  }
+}
 .formulario {
   width: 10cm;
   height: 8cm;
