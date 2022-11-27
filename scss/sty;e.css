@@ -5,6 +5,7 @@ footer {
   border: 1cm;
   margin-top: 1cm;
   bottom: 0%;
+  margin-bottom: 0%;
   background-color: rgb(243, 235, 235);
 }
 
@@ -63,14 +64,12 @@ body {
   margin-right: 1cm;
 }
 
-@media (max-width: 990px) {
-  .navegador {
-    height: auto;
-  }
-}
 .formulario {
   width: 10cm;
-  height: 8cm;
+  height: 10cm;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
 }
 
 .link {
@@ -93,6 +92,15 @@ body {
   text-decoration: underline;
 }
 
+.boxM {
+  width: 8cm;
+  height: 2cm;
+}
+
+.box {
+  width: 8cm;
+}
+
 .foto {
   width: 7cm;
   height: 7cm;
@@ -104,11 +112,6 @@ body {
   width: 8cm;
   padding: 0%;
   align-content: center;
-}
-
-.medidas {
-  width: 30cm;
-  margin-left: 4cm;
 }
 
 .fondo {
@@ -135,4 +138,10 @@ body {
 
 .transicion {
   transition: 2s;
+}
+
+@media (max-width: 990px) {
+  .navegador {
+    height: auto;
+  }
 }/*# sourceMappingURL=sty;e.css.map */

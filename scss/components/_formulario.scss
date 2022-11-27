@@ -1,6 +1,9 @@
 .formulario{
     width: 10cm;
-    height: 8cm;
+    height: 10cm;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
 }
 .link{
     color: $secundario;
@@ -18,4 +21,11 @@
 }
 .const{
     text-decoration: underline;
+}
+.boxM{
+    width: 8cm;
+    height: 2cm;
+}
+.box{
+    width: 8cm;
 }
