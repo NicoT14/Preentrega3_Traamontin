@@ -144,4 +144,10 @@ body {
   .navegador {
     height: auto;
   }
+}
+@media (max-width: 800px) {
+  .acomodar {
+    width: 10cm;
+    height: auto;
+  }
 }/*# sourceMappingURL=sty;e.css.map */
